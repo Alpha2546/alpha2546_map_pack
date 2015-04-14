@@ -1,20 +1,30 @@
 {
   "context": "client",
-  "identifier": "nl.pa.Alpha.grenadiers_effects_mod",
-  "display_name": "Grenadiers effect mod",
-  "description": "Gives the grenadier a proper looking effect.",
-  "author": "Alpha2546, cola_colin",
-  "version": "1.3",
-  "build": "79380",
-  "date": "2015/03/18",
+  "identifier": "nl.pa.Alpha.alpha2546_map_pack",
+  "display_name": "Alpha2546 Map Pack",
+  "description": "Gives you 11 detailed maps to play with which have been made with a lot of love by Alpha2546. Continues to grow.",
+  "author": "Alpha2546",
+  "version": "1",
+  "build": "80462",
+  "date": "2015/04/15",
   "signature": "not yet implemented",
-  "forum": "https://forums.uberent.com/threads/rel-grenadiers-effect-mod-18-03-2015-79380.68326/",
-  "icon": "http://s24.postimg.org/4t7f35v9d/grenadiers_effect_mod.jpg",
+  "forum": "https://forums.uberent.com/threads/alpha2546-maps-lazona-14-04-2015.66508/#post-1081912",
+  "icon": "http://s23.postimg.org/7xfk1k17r/1966292.jpg",
   "category": [
-	  "in-game",
-	  "shader",
-	  "colours",
-	  "explosion"
+	  "map",
+	  "pack",
+	  "maps",
+	  "system",
+	  "planets",
+	  "planet",
+	  "systems"
     ],
-  "priority": 100
+    "load_planet": [
+        "coui://ui/mods/alpha2546/maplist.js"
+    ],
+	"priority": 100,
+    "enabled": true,
+    "dependencies": [
+        "com.pa.conundrum.cShareSystems"
+    ]
 }
