@@ -3,7 +3,7 @@
 	"creator": "Alpha2546",
 	"version": "1",
 	"date": "2015/04/24",
-	"description": "Medium sized planet with remnants of an advanced ancient race. Map contains a lot of chokepoints and some naval. Preferred to play with 6 players SHARED",
+	"description": "Medium sized planet with remnants of an advanced ancient race. Map contains a lot of chokepoints and some naval. Preferred to play with 6 players UNSHARED",
     "planets": [
         {
             "name": "Elijah",
