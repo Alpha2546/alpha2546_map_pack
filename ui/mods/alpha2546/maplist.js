@@ -14,5 +14,9 @@ cShareSystems.load_pas("Alpha2546 maps", [
 	"coui://ui/mods/alpha2546/systems/carnosa.pas",	
 	"coui://ui/mods/alpha2546/systems/elijahs_path_unshared.pas",
 	"coui://ui/mods/alpha2546/systems/elijahs_path_shared.pas",	
+	"coui://ui/mods/alpha2546/systems/carnosa_unshared_v2.pas",	
+	"coui://ui/mods/alpha2546/systems/metal_heck_v7.pas",	
+	"coui://ui/mods/alpha2546/systems/the_ohmwrecker_v15.pas",
+	"coui://ui/mods/alpha2546/systems/alaska.pas",			
 	"coui://ui/mods/alpha2546/systems/xankars™_fury commpush_© _ ©.pas"		
 ]);
