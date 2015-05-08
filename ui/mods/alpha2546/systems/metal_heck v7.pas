@@ -1,8 +1,8 @@
 {
-    "name": "Metal Heck V7",
+    "name": "Metal Heck",
     "planets": [
         {
-            "name": "Destroid",
+            "name": "Metal Heck",
             "mass": 35000,
             "position_x": 15000,
             "position_y": 0,

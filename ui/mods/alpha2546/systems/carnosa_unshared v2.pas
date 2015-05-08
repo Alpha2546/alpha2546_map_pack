@@ -1,5 +1,5 @@
 {
-    "name": "Carnosa Unshared v2",
+    "name": "Carnosa Unshared",
     "planets": [
         {
             "name": "Carnosa",

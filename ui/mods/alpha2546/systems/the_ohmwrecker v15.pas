@@ -1,5 +1,5 @@
 {
-    "name": "The Ohmwrecker v15",
+    "name": "The Ohmwrecker",
     "planets": [
         {
             "name": "The Ohmwrecker",
