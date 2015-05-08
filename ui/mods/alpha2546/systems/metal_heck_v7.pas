@@ -1,5 +1,9 @@
 {
     "name": "Metal Heck",
+	"creator": "Alpha2546",
+	"version": "1",
+	"date": "2015/05/08",
+	"description": "Medium sized metal planet. Map is inspired by the Total Annihilation metal heck Map. Preferred to play with 6 players SHARED, UNSHARED or FFA",		
     "planets": [
         {
             "name": "Metal Heck",

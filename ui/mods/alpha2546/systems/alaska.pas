@@ -1,5 +1,9 @@
 {
     "name": "Alaska",
+	"creator": "Alpha2546",
+	"version": "1",
+	"date": "2015/05/08",
+	"description": "ICY Medium sized planet. Map contains some chokepoints and some naval in some situations. Preferred to play with 4 players SHARED, UNSHARED or FFA",	
     "planets": [
         {
             "name": "Alaska",

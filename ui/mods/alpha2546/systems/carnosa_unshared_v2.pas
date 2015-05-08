@@ -1,5 +1,9 @@
 {
     "name": "Carnosa Unshared",
+	"creator": "Alpha2546",
+	"version": "1",
+	"date": "2015/04/24",
+	"description": "Medium sized planet with the possibility to gang up on eachother. Preferred to play with 8 players UNSHARED or FFA",		
     "planets": [
         {
             "name": "Carnosa",

@@ -1,5 +1,9 @@
 {
     "name": "The Ohmwrecker",
+	"creator": "Alpha2546",
+	"version": "1",
+	"date": "2015/05/08",
+	"description": "Large sized planet. Metal map with some interesting CSG placement which can be used to your advantage. Preferred to play with 10 players SHARED, UNSHARED or FFA",		
     "planets": [
         {
             "name": "The Ohmwrecker",
