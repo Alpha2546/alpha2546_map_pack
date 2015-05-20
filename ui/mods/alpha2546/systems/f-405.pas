@@ -1,5 +1,5 @@
 {
-    "name": "F-405 SHARED",
+    "name": "System F405",
 	"creator": "Alpha2546",
 	"version": "1",
 	"date": "2015/05/20",
