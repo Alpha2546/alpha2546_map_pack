@@ -19,6 +19,11 @@ cShareSystems.load_pas("Alpha2546 maps", [
 	"coui://ui/mods/alpha2546/systems/the_ohmwrecker_v15.pas",
 	"coui://ui/mods/alpha2546/systems/alaska.pas",
 	"coui://ui/mods/alpha2546/systems/Coruscant.pas",
-	"coui://ui/mods/alpha2546/systems/system_f205.pas",			
+	"coui://ui/mods/alpha2546/systems/watchtowers.pas",	
+	"coui://ui/mods/alpha2546/systems/moonbase_202.pas",	
+	"coui://ui/mods/alpha2546/systems/f-405.pas",	
+	"coui://ui/mods/alpha2546/systems/mangrove.pas",	
+	"coui://ui/mods/alpha2546/systems/abstract.pas",	
+	"coui://ui/mods/alpha2546/systems/system_f205.pas",		
 	"coui://ui/mods/alpha2546/systems/xankars™_fury commpush_© _ ©.pas"		
 ]);
