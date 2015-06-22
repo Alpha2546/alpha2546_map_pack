@@ -1,4 +1,4 @@
-cShareSystems.load_pas("Alpha2546 maps", [
+﻿cShareSystems.load_pas("Alpha", [
 	"coui://ui/mods/alpha2546/systems/diona.pas",
 	"coui://ui/mods/alpha2546/systems/hydrogenix_facility_f407_1v1.pas",
 	"coui://ui/mods/alpha2546/systems/hydrogenix_facility_f407_3v3_shared.pas",
@@ -22,8 +22,13 @@ cShareSystems.load_pas("Alpha2546 maps", [
 	"coui://ui/mods/alpha2546/systems/watchtowers.pas",	
 	"coui://ui/mods/alpha2546/systems/moonbase_202.pas",	
 	"coui://ui/mods/alpha2546/systems/f-405.pas",	
-	"coui://ui/mods/alpha2546/systems/mangrove.pas",	
+	"coui://ui/mods/alpha2546/systems/mangrove.pas",
+	"coui://ui/mods/alpha2546/systems/mangrove_unshared.pas",	
 	"coui://ui/mods/alpha2546/systems/abstract.pas",	
-	"coui://ui/mods/alpha2546/systems/system_f205.pas",		
+	"coui://ui/mods/alpha2546/systems/system_f205.pas",	
+	"coui://ui/mods/alpha2546/systems/voidrax.pas",	
+	"coui://ui/mods/alpha2546/systems/pandaplanet.pas",	
+	"coui://ui/mods/alpha2546/systems/system_f808l.pas",
+	"coui://ui/mods/alpha2546/systems/system_f301.pas",	
 	"coui://ui/mods/alpha2546/systems/xankars™_fury commpush_© _ ©.pas"		
 ]);
