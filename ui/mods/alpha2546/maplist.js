@@ -29,6 +29,10 @@
 	"coui://ui/mods/alpha2546/systems/voidrax.pas",	
 	"coui://ui/mods/alpha2546/systems/pandaplanet.pas",	
 	"coui://ui/mods/alpha2546/systems/system_f808l.pas",
-	"coui://ui/mods/alpha2546/systems/system_f301.pas",	
+	"coui://ui/mods/alpha2546/systems/system_f301.pas",
+	"coui://ui/mods/alpha2546/systems/omega.pas",	
+	"coui://ui/mods/alpha2546/systems/tectonic.pas",	
+	"coui://ui/mods/alpha2546/systems/progenitors_lair.pas",
+	"coui://ui/mods/alpha2546/systems/hanfyren.pas",		
 	"coui://ui/mods/alpha2546/systems/xankars™_fury commpush_© _ ©.pas"		
 ]);
