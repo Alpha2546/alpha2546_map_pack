@@ -1,4 +1,8 @@
 ﻿cShareSystems.load_pas("Alpha", [
+	"coui://ui/mods/alpha2546/systems/splitter.pas",	
+	"coui://ui/mods/alpha2546/systems/the_island.pas",	
+	"coui://ui/mods/alpha2546/systems/geizer.pas",
+	"coui://ui/mods/alpha2546/systems/jungle_hazard.pas",	
 	"coui://ui/mods/alpha2546/systems/diona.pas",
 	"coui://ui/mods/alpha2546/systems/hydrogenix_facility_f407_1v1.pas",
 	"coui://ui/mods/alpha2546/systems/hydrogenix_facility_f407_3v3_shared.pas",
@@ -33,6 +37,6 @@
 	"coui://ui/mods/alpha2546/systems/omega.pas",	
 	"coui://ui/mods/alpha2546/systems/tectonic.pas",	
 	"coui://ui/mods/alpha2546/systems/progenitors_lair.pas",
-	"coui://ui/mods/alpha2546/systems/hanfyren.pas",		
+	"coui://ui/mods/alpha2546/systems/hanfyren.pas",	
 	"coui://ui/mods/alpha2546/systems/xankars™_fury commpush_© _ ©.pas"		
 ]);
