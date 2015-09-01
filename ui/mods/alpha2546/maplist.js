@@ -1,7 +1,7 @@
 ﻿cShareSystems.load_pas("Alpha", [
 	"coui://ui/mods/alpha2546/systems/splitter.pas",	
 	"coui://ui/mods/alpha2546/systems/the_island.pas",	
-	"coui://ui/mods/alpha2546/systems/geizer.pas",
+	"coui://ui/mods/alpha2546/systems/geyser.pas",
 	"coui://ui/mods/alpha2546/systems/jungle_hazard.pas",	
 	"coui://ui/mods/alpha2546/systems/diona.pas",
 	"coui://ui/mods/alpha2546/systems/hydrogenix_facility_f407_1v1.pas",
