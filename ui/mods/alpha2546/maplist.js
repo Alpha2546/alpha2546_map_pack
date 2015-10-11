@@ -1,4 +1,6 @@
 ﻿cShareSystems.load_pas("Alpha", [
+	"coui://ui/mods/alpha2546/systems/andromeda.pas",	
+	"coui://ui/mods/alpha2546/systems/harbour.pas",	
 	"coui://ui/mods/alpha2546/systems/splitter.pas",	
 	"coui://ui/mods/alpha2546/systems/the_island.pas",	
 	"coui://ui/mods/alpha2546/systems/geyser.pas",
