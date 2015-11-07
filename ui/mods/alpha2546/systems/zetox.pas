@@ -1,8 +1,8 @@
 {
     "name": "Zetox",
 	"creator": "Alpha2546",
-	"version": "1",
-	"date": "2015/04/14",
+	"version": "2",
+	"date": "2015/11/07",
 	"description": "5v5 SHARED land, naval and air map. Preferred to play with 10 players SHARED",
     "planets": [
         {
@@ -14,6 +14,10 @@
             "velocity_y": 182.57418823242188,
             "required_thrust_to_move": 0,
             "starting_planet": true,
+            "respawn": false,
+            "start_destroyed": false,
+            "min_spawn_delay": 0,
+            "max_spawn_delay": 0,
             "planet": {
                 "seed": 208280112,
                 "radius": 804,
@@ -23,6 +27,7 @@
                 "temperature": 80,
                 "metalDensity": 0,
                 "metalClusters": 0,
+                "metalSpotLimit": -1,
                 "biomeScale": 50,
                 "biome": "tropical",
                 "symmetryType": "terrain and CSG",
@@ -136,13 +141,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/jungle/brushes/jungle_plateau_06.json",
@@ -191,13 +190,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/jungle/brushes/jungle_plateau_06.json",
@@ -246,13 +239,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/jungle/brushes/jungle_plateau_01.json",
@@ -301,13 +288,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/jungle/brushes/jungle_plateau_01.json",
@@ -356,13 +337,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/jungle/brushes/jungle_plateau_01.json",
@@ -411,13 +386,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/jungle/brushes/jungle_plateau_01.json",
@@ -466,13 +435,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/jungle/brushes/jungle_plateau_01.json",
@@ -521,13 +484,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/jungle/brushes/jungle_plateau_01.json",
@@ -576,13 +533,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_08.json",
@@ -631,13 +582,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_08.json",
@@ -686,13 +631,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_02.json",
@@ -741,13 +680,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_02.json",
@@ -796,13 +729,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_01.json",
@@ -906,13 +833,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/jungle/brushes/jungle_crack_01.json",
@@ -961,13 +882,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/jungle/brushes/jungle_crack_01.json",
@@ -1016,13 +931,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_03.json",
@@ -1071,13 +980,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_03.json",
@@ -1126,13 +1029,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_04.json",
@@ -1181,13 +1078,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_04.json",
@@ -1236,13 +1127,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -1291,13 +1176,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -1346,13 +1225,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_03.json",
@@ -1401,13 +1274,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_03.json",
@@ -1456,13 +1323,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_04.json",
@@ -1511,13 +1372,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_04.json",
@@ -1566,13 +1421,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_04.json",
@@ -1621,13 +1470,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_04.json",
@@ -1676,13 +1519,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_03.json",
@@ -1731,13 +1568,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_03.json",
@@ -1786,13 +1617,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -1841,13 +1666,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -1896,13 +1715,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -1951,13 +1764,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -2006,13 +1813,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -2061,13 +1862,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -2116,13 +1911,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -2171,13 +1960,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -2226,13 +2009,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_09.json",
@@ -2281,13 +2058,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_09.json",
@@ -2336,13 +2107,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_10.json",
@@ -2391,13 +2156,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_10.json",
@@ -2446,13 +2205,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_10.json",
@@ -2501,13 +2254,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_10.json",
@@ -2721,13 +2468,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_01.json",
@@ -3381,7 +3122,13 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true
+                        "no_features": true,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -3430,7 +3177,13 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true
+                        "no_features": true,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_03.json",
@@ -3534,7 +3287,13 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true
+                        "no_features": true,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_04.json",
@@ -3583,7 +3342,13 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true
+                        "no_features": true,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_04.json",
@@ -3632,7 +3397,13 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true
+                        "no_features": true,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -3681,7 +3452,13 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true
+                        "no_features": true,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -3730,7 +3507,13 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true
+                        "no_features": true,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -3779,7 +3562,13 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true
+                        "no_features": true,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -3828,7 +3617,13 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true
+                        "no_features": true,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -3877,7 +3672,13 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true
+                        "no_features": true,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -3926,7 +3727,13 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true
+                        "no_features": true,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -3975,7 +3782,13 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true
+                        "no_features": true,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -4079,7 +3892,13 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true
+                        "no_features": true,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_03.json",
@@ -4128,7 +3947,13 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true
+                        "no_features": true,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_03.json",
@@ -4177,7 +4002,13 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true
+                        "no_features": true,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_03.json",
@@ -4275,13 +4106,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_04.json",
@@ -4379,13 +4204,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_03.json",
@@ -4489,13 +4308,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -4544,13 +4357,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -4599,13 +4406,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -4813,13 +4614,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -4868,13 +4663,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -4923,13 +4712,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_07.json",
@@ -4978,13 +4761,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_04.json",
@@ -5033,13 +4810,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_04.json",
@@ -5143,13 +4914,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_03.json",
@@ -5253,13 +5018,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_08.json",
@@ -5693,13 +5452,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_09.json",
@@ -6408,13 +6161,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_01.json",
@@ -6903,7 +6650,13 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false
+                        "no_features": false,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_09.json",
@@ -9592,13 +9345,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": false,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": false
                     },
                     {
                         "spec": "/pa/terrain/desert/brushes/desert_plateau_01.json",
@@ -13827,13 +13574,7 @@
                         "flooded": false,
                         "pathable": false,
                         "mergeable": false,
-                        "no_features": true,
-                        "biomeColor": [
-                            0,
-                            0,
-                            0,
-                            1
-                        ]
+                        "no_features": true
                     },
                     {
                         "spec": "/pa/terrain/mountain/brushes/mountain_mountain_04.json",
@@ -14708,6 +14449,446 @@
                         "pathable": false,
                         "mergeable": false,
                         "no_features": true,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "spec": "/pa/terrain/desert/brushes/desert_plateau_08.json",
+                        "weight": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "proj": "BP_Bend",
+                        "op": "BO_Add",
+                        "transform": [
+                            0.7720204591751099,
+                            -0.1494976282119751,
+                            0.6177659630775452,
+                            502.4874267578125,
+                            -0.1494976282119751,
+                            0.9019668698310852,
+                            0.4051001965999603,
+                            329.5062561035156,
+                            -0.6177659630775452,
+                            -0.4051001965999603,
+                            0.6739873886108398,
+                            548.2175903320312
+                        ],
+                        "scale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "rotation": 0,
+                        "position": [
+                            499.39862060546875,
+                            327.4808044433594,
+                            544.84765625
+                        ],
+                        "height": 813.3944702148438,
+                        "weightHard": false,
+                        "weightScale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "mirrored": false,
+                        "twinId": 219,
+                        "flooded": false,
+                        "pathable": false,
+                        "mergeable": false,
+                        "no_features": false,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "spec": "/pa/terrain/desert/brushes/desert_plateau_08.json",
+                        "weight": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "proj": "BP_Bend",
+                        "op": "BO_Add",
+                        "transform": [
+                            0.7720204591751099,
+                            -0.1494976282119751,
+                            0.6177659630775452,
+                            502.4874267578125,
+                            -0.1494976282119751,
+                            0.9019668698310852,
+                            0.4051001965999603,
+                            329.5062561035156,
+                            0.6177659630775452,
+                            0.4051001965999603,
+                            -0.6739873886108398,
+                            -548.2175903320312
+                        ],
+                        "scale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "rotation": 0,
+                        "position": [
+                            499.39862060546875,
+                            327.4808044433594,
+                            544.84765625
+                        ],
+                        "height": 813.3944702148438,
+                        "weightHard": false,
+                        "weightScale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "mirrored": true,
+                        "twinId": 219,
+                        "flooded": false,
+                        "pathable": false,
+                        "mergeable": false,
+                        "no_features": false,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "spec": "/pa/terrain/desert/brushes/desert_plateau_08.json",
+                        "weight": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "proj": "BP_Bend",
+                        "op": "BO_Add",
+                        "transform": [
+                            -0.6329847574234009,
+                            -0.5273998975753784,
+                            0.5667271018028259,
+                            462.2398986816406,
+                            0.7732869386672974,
+                            -0.39589065313339233,
+                            0.4952756464481354,
+                            403.9619140625,
+                            -0.03684636950492859,
+                            0.7517445683479309,
+                            0.6584241390228271,
+                            537.0308227539062
+                        ],
+                        "scale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "rotation": 2.2400405406951904,
+                        "position": [
+                            457.139404296875,
+                            399.50445556640625,
+                            531.10498046875
+                        ],
+                        "height": 815.6304931640625,
+                        "weightHard": false,
+                        "weightScale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "mirrored": false,
+                        "twinId": 220,
+                        "flooded": false,
+                        "pathable": false,
+                        "mergeable": false,
+                        "no_features": false,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "spec": "/pa/terrain/desert/brushes/desert_plateau_08.json",
+                        "weight": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "proj": "BP_Bend",
+                        "op": "BO_Add",
+                        "transform": [
+                            -0.6329847574234009,
+                            -0.5273998975753784,
+                            0.5667271018028259,
+                            462.2398681640625,
+                            0.7732869386672974,
+                            -0.39589065313339233,
+                            0.4952756464481354,
+                            403.9618835449219,
+                            0.03684636950492859,
+                            -0.7517445683479309,
+                            -0.6584241390228271,
+                            -537.0308227539062
+                        ],
+                        "scale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "rotation": 2.2400405406951904,
+                        "position": [
+                            457.139404296875,
+                            399.50445556640625,
+                            531.10498046875
+                        ],
+                        "height": 815.6304931640625,
+                        "weightHard": false,
+                        "weightScale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "mirrored": true,
+                        "twinId": 220,
+                        "flooded": false,
+                        "pathable": false,
+                        "mergeable": false,
+                        "no_features": false,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "spec": "/pa/terrain/desert/brushes/desert_plateau_11.json",
+                        "weight": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "proj": "BP_Bend",
+                        "op": "BO_Add",
+                        "transform": [
+                            0.6366190910339355,
+                            -0.1128387600183487,
+                            0.4711516499519348,
+                            475.4983215332031,
+                            -0.13961991667747498,
+                            0.7022606730461121,
+                            0.3568425178527832,
+                            360.13458251953125,
+                            -0.46392107009887695,
+                            -0.3661935329437256,
+                            0.5391473770141602,
+                            544.121337890625
+                        ],
+                        "scale": [
+                            0.8000001907348633,
+                            0.8000001907348633,
+                            0.8000001907348633
+                        ],
+                        "rotation": -0.019999999552965164,
+                        "position": [
+                            475.498291015625,
+                            360.1345520019531,
+                            544.121337890625
+                        ],
+                        "height": 807.3806762695312,
+                        "weightHard": false,
+                        "weightScale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "mirrored": false,
+                        "twinId": 221,
+                        "flooded": false,
+                        "pathable": false,
+                        "mergeable": false,
+                        "no_features": false,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "spec": "/pa/terrain/desert/brushes/desert_plateau_11.json",
+                        "weight": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "proj": "BP_Bend",
+                        "op": "BO_Add",
+                        "transform": [
+                            0.6366190910339355,
+                            -0.1128387600183487,
+                            0.4711516499519348,
+                            475.498291015625,
+                            -0.13961991667747498,
+                            0.7022606730461121,
+                            0.3568425178527832,
+                            360.13458251953125,
+                            0.46392107009887695,
+                            0.3661935329437256,
+                            -0.5391473770141602,
+                            -544.121337890625
+                        ],
+                        "scale": [
+                            0.8000001907348633,
+                            0.8000001907348633,
+                            0.8000001907348633
+                        ],
+                        "rotation": -0.019999999552965164,
+                        "position": [
+                            475.498291015625,
+                            360.1345520019531,
+                            544.121337890625
+                        ],
+                        "height": 807.3806762695312,
+                        "weightHard": false,
+                        "weightScale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "mirrored": true,
+                        "twinId": 221,
+                        "flooded": false,
+                        "pathable": false,
+                        "mergeable": false,
+                        "no_features": false,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "spec": "/pa/terrain/desert/brushes/desert_plateau_08.json",
+                        "weight": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "proj": "BP_Bend",
+                        "op": "BO_Add",
+                        "transform": [
+                            0.7920121550559998,
+                            0.12799230217933655,
+                            0.5969377160072327,
+                            487.4120178222656,
+                            -0.4594910740852356,
+                            0.7687712907791138,
+                            0.44481295347213745,
+                            363.1990051269531,
+                            -0.40197598934173584,
+                            -0.6265847682952881,
+                            0.6676875352859497,
+                            545.1807250976562
+                        ],
+                        "scale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "rotation": -0.36000001430511475,
+                        "position": [
+                            482.0396728515625,
+                            359.19573974609375,
+                            539.1715087890625
+                        ],
+                        "height": 816.520751953125,
+                        "weightHard": false,
+                        "weightScale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "mirrored": false,
+                        "twinId": 222,
+                        "flooded": false,
+                        "pathable": false,
+                        "mergeable": false,
+                        "no_features": false,
+                        "biomeColor": [
+                            0,
+                            0,
+                            0,
+                            1
+                        ]
+                    },
+                    {
+                        "spec": "/pa/terrain/desert/brushes/desert_plateau_08.json",
+                        "weight": [
+                            1,
+                            1,
+                            1,
+                            1
+                        ],
+                        "proj": "BP_Bend",
+                        "op": "BO_Add",
+                        "transform": [
+                            0.7920121550559998,
+                            0.12799230217933655,
+                            0.5969377160072327,
+                            487.41204833984375,
+                            -0.4594910740852356,
+                            0.7687712907791138,
+                            0.44481295347213745,
+                            363.1990051269531,
+                            0.40197598934173584,
+                            0.6265847682952881,
+                            -0.6676875352859497,
+                            -545.1807250976562
+                        ],
+                        "scale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "rotation": -0.36000001430511475,
+                        "position": [
+                            482.0396728515625,
+                            359.19573974609375,
+                            539.1715087890625
+                        ],
+                        "height": 816.520751953125,
+                        "weightHard": false,
+                        "weightScale": [
+                            1,
+                            1,
+                            1
+                        ],
+                        "mirrored": true,
+                        "twinId": 222,
+                        "flooded": false,
+                        "pathable": false,
+                        "mergeable": false,
+                        "no_features": false,
                         "biomeColor": [
                             0,
                             0,
@@ -15671,6 +15852,46 @@
                         -105.38064575195312,
                         308.4480895996094,
                         733.8707885742188
+                    ],
+                    [
+                        586.5952758789062,
+                        369.3753356933594,
+                        -411.09649658203125
+                    ],
+                    [
+                        586.5952758789062,
+                        369.3753356933594,
+                        411.09649658203125
+                    ],
+                    [
+                        530.38720703125,
+                        437.4972229003906,
+                        -423.05438232421875
+                    ],
+                    [
+                        530.38720703125,
+                        437.4972229003906,
+                        423.05438232421875
+                    ],
+                    [
+                        543.8326416015625,
+                        383.53619384765625,
+                        -456.963623046875
+                    ],
+                    [
+                        543.8326416015625,
+                        383.53619384765625,
+                        456.963623046875
+                    ],
+                    [
+                        571.1990356445312,
+                        423.1338195800781,
+                        -374.165283203125
+                    ],
+                    [
+                        571.1990356445312,
+                        423.1338195800781,
+                        374.165283203125
                     ]
                 ],
                 "landing_zones": {
@@ -15746,13 +15967,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -16438,13 +16653,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -17963,13 +18172,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -18018,13 +18221,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -18073,13 +18270,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -18177,13 +18368,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -18232,13 +18417,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -18287,13 +18466,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -18342,13 +18515,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -18397,13 +18564,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -18452,13 +18613,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -18507,13 +18662,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -18562,13 +18711,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -18617,13 +18760,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -18672,13 +18809,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -18727,13 +18858,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -18782,13 +18907,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -18837,13 +18956,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -18892,13 +19005,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -18947,13 +19054,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -19002,13 +19103,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -19057,13 +19152,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -19112,13 +19201,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -19167,13 +19250,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -19222,13 +19299,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -19277,13 +19348,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -19332,13 +19397,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -19387,13 +19446,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -19442,13 +19495,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -19497,13 +19544,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -19552,13 +19593,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -19607,13 +19642,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -19662,13 +19691,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -19913,13 +19936,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -20115,13 +20132,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -20170,13 +20181,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -20519,13 +20524,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -20623,13 +20622,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -20727,13 +20720,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -20782,13 +20769,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -20837,13 +20818,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -20892,13 +20867,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -20947,13 +20916,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21002,13 +20965,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21057,13 +21014,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21161,13 +21112,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21216,13 +21161,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21271,13 +21210,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21326,13 +21259,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21381,13 +21308,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21436,13 +21357,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21491,13 +21406,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21546,13 +21455,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21601,13 +21504,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21656,13 +21553,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21711,13 +21602,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21766,13 +21651,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21870,13 +21749,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21925,13 +21798,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -21980,13 +21847,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22035,13 +21896,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22090,13 +21945,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22145,13 +21994,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22200,13 +22043,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22255,13 +22092,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22310,13 +22141,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22365,13 +22190,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22420,13 +22239,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22475,13 +22288,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22530,13 +22337,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22585,13 +22386,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22640,13 +22435,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22695,13 +22484,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22750,13 +22533,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22805,13 +22582,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22860,13 +22631,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22915,13 +22680,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -22970,13 +22729,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -23025,13 +22778,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -23080,13 +22827,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -23135,13 +22876,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -23190,13 +22925,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -23245,13 +22974,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -23300,13 +23023,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -23355,13 +23072,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -23410,13 +23121,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -23465,13 +23170,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -23520,13 +23219,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -23575,13 +23268,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -23630,13 +23317,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -23685,13 +23366,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -23740,13 +23415,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -23795,13 +23464,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -23850,13 +23513,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -23905,13 +23562,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -23960,13 +23611,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -24015,13 +23660,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -24070,13 +23709,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -24125,13 +23758,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -24180,13 +23807,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -24235,13 +23856,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -24290,13 +23905,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -24345,13 +23954,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -24400,13 +24003,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -24455,13 +24052,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -24510,13 +24101,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -24565,13 +24150,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -24620,13 +24199,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -24675,13 +24248,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -24730,13 +24297,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -24785,13 +24346,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -24840,13 +24395,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -24895,13 +24444,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -24950,13 +24493,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25054,13 +24591,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25109,13 +24640,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25164,13 +24689,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25219,13 +24738,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25274,13 +24787,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25329,13 +24836,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25384,13 +24885,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25439,13 +24934,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25494,13 +24983,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25549,13 +25032,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25604,13 +25081,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25659,13 +25130,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25714,13 +25179,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25769,13 +25228,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25824,13 +25277,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25879,13 +25326,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25934,13 +25375,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -25989,13 +25424,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26044,13 +25473,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26099,13 +25522,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26154,13 +25571,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26209,13 +25620,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26264,13 +25669,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26319,13 +25718,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26374,13 +25767,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26429,13 +25816,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26484,13 +25865,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26539,13 +25914,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26594,13 +25963,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26649,13 +26012,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26704,13 +26061,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26759,13 +26110,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26814,13 +26159,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26869,13 +26208,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26924,13 +26257,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -26979,13 +26306,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27034,13 +26355,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27089,13 +26404,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27144,13 +26453,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27199,13 +26502,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27254,13 +26551,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27309,13 +26600,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27364,13 +26649,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27419,13 +26698,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27474,13 +26747,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27529,13 +26796,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27584,13 +26845,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27639,13 +26894,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27694,13 +26943,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27749,13 +26992,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27804,13 +27041,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27859,13 +27090,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27914,13 +27139,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -27969,13 +27188,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28024,13 +27237,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28079,13 +27286,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28134,13 +27335,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28189,13 +27384,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28244,13 +27433,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28299,13 +27482,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28354,13 +27531,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28409,13 +27580,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28464,13 +27629,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28519,13 +27678,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28574,13 +27727,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28629,13 +27776,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28684,13 +27825,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28739,13 +27874,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28794,13 +27923,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28849,13 +27972,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -28904,13 +28021,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -28959,13 +28070,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29014,13 +28119,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29069,13 +28168,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29124,13 +28217,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29179,13 +28266,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29283,13 +28364,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29338,13 +28413,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29393,13 +28462,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29448,13 +28511,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29503,13 +28560,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29558,13 +28609,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29613,13 +28658,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29668,13 +28707,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29723,13 +28756,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29778,13 +28805,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29833,13 +28854,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29888,13 +28903,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29943,13 +28952,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -29998,13 +29001,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -30053,13 +29050,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -30108,13 +29099,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": true,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": true
                 },
                 {
                     "weight": [
@@ -30163,13 +29148,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -30218,13 +29197,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -30273,13 +29246,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -30328,13 +29295,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -30383,13 +29344,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -30438,13 +29393,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -30493,13 +29442,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 },
                 {
                     "weight": [
@@ -30548,13 +29491,7 @@
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
-                    "no_features": false,
-                    "biomeColor": [
-                        0,
-                        0,
-                        0,
-                        1
-                    ]
+                    "no_features": false
                 }
             ],
             "metal_spots": [
@@ -31504,16 +30441,6 @@
                     712.060791015625
                 ],
                 [
-                    -105.38064575195312,
-                    308.4480895996094,
-                    -733.8707885742188
-                ],
-                [
-                    -105.38064575195312,
-                    308.4480895996094,
-                    733.8707885742188
-                ],
-                [
                     586.5952758789062,
                     369.3753356933594,
                     -411.09649658203125
@@ -31552,6 +30479,36 @@
                     571.1990356445312,
                     423.1338195800781,
                     374.165283203125
+                ],
+                [
+                    -118.02916717529297,
+                    304.0926208496094,
+                    733.67578125
+                ],
+                [
+                    -118.02916717529297,
+                    304.0926208496094,
+                    -733.67578125
+                ],
+                [
+                    -89.21224975585938,
+                    335.974609375,
+                    724.0286254882812
+                ],
+                [
+                    -89.21224975585938,
+                    335.974609375,
+                    -724.0286254882812
+                ],
+                [
+                    152.88470458984375,
+                    -728.166259765625,
+                    310.4576416015625
+                ],
+                [
+                    350.706787109375,
+                    152.73020935058594,
+                    -715.2219848632812
                 ]
             ],
             "landing_zones": {
