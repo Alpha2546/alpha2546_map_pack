@@ -1,5 +1,9 @@
 {
-    "name": "Arkthus",
+    "name": "T- Arkthus",
+	"creator": "Alpha2546",
+	"version": "1",
+	"date": "2016/02/11",	
+	"description": "Small sized lava planet with land only. Very choky or you'll have to start using hover magic. Which expansions will you choose? Preferred to play 1v1 or 2v2 SHARED.",		
     "planets": [
         {
             "name": "Arkthus",
