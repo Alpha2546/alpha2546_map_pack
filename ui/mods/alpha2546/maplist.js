@@ -37,7 +37,7 @@
 	"coui://ui/mods/alpha2546/systems/metal_heck_v7.pas",	
 	"coui://ui/mods/alpha2546/systems/the_ohmwrecker_v15.pas",
 	"coui://ui/mods/alpha2546/systems/alaska.pas",
-	"coui://ui/mods/alpha2546/systems/Coruscant.pas",
+	"coui://ui/mods/alpha2546/systems/coruscant.pas",
 	"coui://ui/mods/alpha2546/systems/watchtowers.pas",	
 	"coui://ui/mods/alpha2546/systems/moonbase_202.pas",	
 	"coui://ui/mods/alpha2546/systems/mangrove.pas",
