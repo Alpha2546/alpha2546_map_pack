@@ -1,4 +1,6 @@
 ﻿cShareSystems.load_pas("Alpha", [
+	"coui://ui/mods/alpha2546/systems/icyon_v7.pas",	
+	"coui://ui/mods/alpha2546/systems/licks_v6.pas",	
 	"coui://ui/mods/alpha2546/systems/kure_atoll_v20.pas",	
 	"coui://ui/mods/alpha2546/systems/tropical_v8.pas",	
 	"coui://ui/mods/alpha2546/systems/the_refinery.pas",
