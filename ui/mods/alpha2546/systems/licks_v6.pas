@@ -1,5 +1,5 @@
 {
-    "name": "Licks",
+    "name": "T- Licks",
 	"creator": "Alpha2546",
 	"version": "1",
 	"date": "2016/07/12",	
